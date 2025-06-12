@@ -54,7 +54,7 @@ fun PizzaPager(
                 targetValue = when (state.selectedBread.selectedSize) {
                     BreadSize.LARGE -> 0.9f
                     BreadSize.MEDIUM -> 0.8f
-                    BreadSize.SMALL -> 0.7f
+                    BreadSize.SMALL -> 0.75f
                 },
                 tween(500)
             )
